@@ -1,0 +1,40 @@
+<div>
+	<div class="col">
+		<h1>Welcome to Employee </h1>
+	</div>
+	<div class="col">
+		<h2>Employee add</h2>
+	</div>
+	<form ng-submit="submit()">
+	<table class="table">
+		<tr>
+			<td>Emp Id</td>
+			<td><input ng-model="empid" type="text"></input></td>
+		</tr>
+		<tr>
+			<td>EmpName</td>
+			<td><input ng-model="name" type"text"></input></td>
+		</tr>
+		<tr>
+			<td>DoJ</td>
+			<td><input ng-model="jdate" type="date"></input></td>
+		</tr>
+	</table>
+	<style>
+	table {
+		border-collapse: collapse;
+		width: 100%;
+	  }
+	  
+	  th, td {
+		text-align: left;
+		padding: 8px;
+	  }
+	  
+	  tr:nth-child(even) {background-color: #f2f2f2;}
+	  </style>
+	<div class="col">
+		<button class="btn btn-success" type="submit" style="background : rgb(0, 13, 128);text-align:center";>Submit</button>
+	</div>
+	</form>
+</div>
